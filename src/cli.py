@@ -43,6 +43,24 @@ def run_pipeline(episode_path: str, contracts_path: str, policies_path: str, mod
         if status == "FAIL":
             print(f"   -> Unresolved Violations: {reports.get(audience)}")
             
+    # Generate validation_report.md
+    report_lines = ["# Validation Report\n"]
+    for aud, plan in final_state.get("trailer_plans", {}).items():
+        report_lines.append(f"## {aud.upper()} Trailer")
+        report_lines.append(f"- Status: {plan.validation_status}")
+        flags = final_state.get("validation_reports", {}).get(aud, [])
+        if flags:
+            report_lines.append(f"- Violations encountered: {len(flags)}")
+            for v in flags:
+                report_lines.append(f"  - [{v.get('type')}] Segment {v.get('segment_id')}: {v.get('reasoning', '')}")
+        else:
+            report_lines.append("- Clean pass. No violations.")
+        report_lines.append("")
+        
+    os.makedirs("sample_run", exist_ok=True)
+    with open("sample_run/validation_report.md", "w", encoding="utf-8") as f:
+        f.write("\n".join(report_lines))
+
     print("\nCheck the 'sample_run/' directory for output EDLs and Quarantines.")
 
 def simulate_event(event_type: str, asset_id: str, input_run: str):

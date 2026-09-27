@@ -1,0 +1,15 @@
+{
+  "core_narrative_facts": [
+    {
+      "fact_id": "Fact_01",
+      "description": "Detective",
+      "linked_scene_ids": [
+        "scene_04"
+      ],
+      "is_spoiler": true
+    }
+  ],
+  "relationship_dynamics": [
+    "Rivals"
+  ]
+}

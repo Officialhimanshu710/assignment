@@ -2,8 +2,26 @@
   "trailer_id": "trailer_family",
   "audience": "family",
   "duration_seconds": 30,
-  "audience_promise": "family",
-  "segments": [],
+  "audience_promise": "An engaging experience for family",
+  "segments": [
+    {
+      "segment_id": "seg_family_01",
+      "clip_id": "C002",
+      "source_in": "00:00:20.000",
+      "source_out": "00:00:25.000",
+      "duration_ms": 0,
+      "audio_track_id": "music_01",
+      "subtitle_track_id": null,
+      "narrative_function": "Hook",
+      "editorial_reasoning": "Automated repair: replaced with C002 to satisfy constraints.",
+      "cited_evidence": [
+        "scene:01"
+      ],
+      "risk_flags": [
+        "REPAIRED"
+      ]
+    }
+  ],
   "total_cost_usd": 0.0,
   "validation_status": "PASS"
 }

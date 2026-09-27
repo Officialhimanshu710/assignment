@@ -37,6 +37,11 @@ def story_mapper_node(state: GraphState) -> GraphState:
     }
     
     structured_output = gateway.generate(prompt=prompt, schema=StoryMapOutput, mock_data=mock_data)
+    
+    os.makedirs("sample_run", exist_ok=True)
+    with open("sample_run/story_map.json", "w", encoding="utf-8") as f:
+        f.write(structured_output.model_dump_json(indent=2))
+        
     return {"protected_facts": [f.model_dump() for f in structured_output.core_narrative_facts]}
 
 def _run_planner(state: GraphState, audience: Literal["family", "young_adult", "dialect_region"], guidelines: str) -> TrailerPlan:
