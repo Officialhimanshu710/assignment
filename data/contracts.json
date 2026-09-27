@@ -1,0 +1,16 @@
+{
+  "contracts": [
+    {
+      "entity": "music_03",
+      "status": "EXPIRED",
+      "promotional_use": false,
+      "clause": "Licensing for music_03 expired in 2025."
+    },
+    {
+      "entity": "actor_02",
+      "status": "ACTIVE",
+      "promotional_use": false,
+      "clause": "Actor 2 contract prohibits promotional trailer usage."
+    }
+  ]
+}

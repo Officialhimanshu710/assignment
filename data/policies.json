@@ -1,0 +1,12 @@
+{
+  "policies": [
+    {
+      "policy_id": "pol_family_violence",
+      "category": "RATING",
+      "target": "global",
+      "condition": "EXCEEDS_VIOLENCE_THRESHOLD",
+      "action": "BLOCK",
+      "description": "No violence permitted for family rating."
+    }
+  ]
+}

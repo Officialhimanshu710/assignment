@@ -1,0 +1,26 @@
+[
+  {
+    "rule_id": "rights_music_03",
+    "category": "RIGHTS",
+    "target_entity": "track:music_03",
+    "condition": "EQUALS",
+    "action": "BLOCK",
+    "source_clause": "Licensing for music_03 expired in 2025."
+  },
+  {
+    "rule_id": "promo_actor_02",
+    "category": "RIGHTS",
+    "target_entity": "actor:actor_02",
+    "condition": "EQUALS",
+    "action": "BLOCK",
+    "source_clause": "No promotional use allowed."
+  },
+  {
+    "rule_id": "pol_family_violence",
+    "category": "RATING",
+    "target_entity": "global",
+    "condition": "EXCEEDS_VIOLENCE_THRESHOLD",
+    "action": "BLOCK",
+    "source_clause": "No violence permitted for family rating."
+  }
+]

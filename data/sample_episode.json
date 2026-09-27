@@ -1,0 +1,39 @@
+{
+  "episode_id": "ep_01",
+  "title": "The Hidden Truth",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "source_in": "00:00:10.000",
+      "source_out": "00:00:15.000",
+      "characters": ["actor_01", "actor_02"],
+      "dialogue_lines": ["dlg_01"],
+      "audio_tracks": ["music_01"],
+      "intensity": 0.4,
+      "cultural_tags": ["urban"],
+      "has_spoilers": false
+    },
+    {
+      "scene_id": "scene_02",
+      "source_in": "00:00:20.000",
+      "source_out": "00:00:25.000",
+      "characters": ["actor_03"],
+      "dialogue_lines": ["dlg_02"],
+      "audio_tracks": ["music_02"],
+      "intensity": 0.8,
+      "cultural_tags": ["suspense"],
+      "has_spoilers": true
+    },
+    {
+      "scene_id": "scene_03",
+      "source_in": "00:00:30.000",
+      "source_out": "00:00:35.000",
+      "characters": ["actor_04"],
+      "dialogue_lines": [],
+      "audio_tracks": ["music_03"],
+      "intensity": 0.6,
+      "cultural_tags": ["regional_dialect"],
+      "has_spoilers": false
+    }
+  ]
+}

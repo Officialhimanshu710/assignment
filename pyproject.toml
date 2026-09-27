@@ -1,0 +1,13 @@
+[project]
+name = "assignment"
+version = "0.1.0"
+description = "Autonomous Trailer Director"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0",
+    "langgraph>=0.0.26",
+    "langchain-groq>=0.0.1",
+    "pytest>=8.0",
+    "python-dotenv>=1.0.0"
+]

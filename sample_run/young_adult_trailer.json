@@ -1,0 +1,58 @@
+{
+  "trailer_id": "trailer_young_adult",
+  "audience": "young_adult",
+  "duration_seconds": 30,
+  "audience_promise": "A fast‑paced, gripping story that keeps young adult readers hooked, delivering excitement and intrigue while keeping the central twist concealed.",
+  "segments": [
+    {
+      "segment_id": "seg1",
+      "clip_id": "C002",
+      "source_in": "00:00:20.000",
+      "source_out": "00:00:25.000",
+      "duration_ms": 0,
+      "audio_track_id": "C001",
+      "subtitle_track_id": null,
+      "narrative_function": "setup",
+      "editorial_reasoning": "Automated repair: replaced with C002 to satisfy constraints.",
+      "cited_evidence": [],
+      "risk_flags": [
+        "REPAIRED",
+        "REPAIRED"
+      ]
+    },
+    {
+      "segment_id": "seg2",
+      "clip_id": "C002",
+      "source_in": "00:00:20.000",
+      "source_out": "00:00:25.000",
+      "duration_ms": 0,
+      "audio_track_id": "C002",
+      "subtitle_track_id": null,
+      "narrative_function": "conflict",
+      "editorial_reasoning": "Automated repair: replaced with C002 to satisfy constraints.",
+      "cited_evidence": [],
+      "risk_flags": [
+        "REPAIRED",
+        "REPAIRED"
+      ]
+    },
+    {
+      "segment_id": "seg3",
+      "clip_id": "C002",
+      "source_in": "00:00:20.000",
+      "source_out": "00:00:25.000",
+      "duration_ms": 0,
+      "audio_track_id": "C003",
+      "subtitle_track_id": null,
+      "narrative_function": "climax",
+      "editorial_reasoning": "Automated repair: replaced with C002 to satisfy constraints.",
+      "cited_evidence": [],
+      "risk_flags": [
+        "REPAIRED",
+        "REPAIRED"
+      ]
+    }
+  ],
+  "total_cost_usd": 0.0,
+  "validation_status": "PASS"
+}
